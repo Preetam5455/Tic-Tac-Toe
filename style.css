@@ -1,0 +1,32 @@
+.cell{
+    height: 60px;
+    width:70px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 70px;
+    font-size: 48px;
+    cursor: pointer;
+    text-align: center;
+}
+
+body{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+
+#cell_container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 200px;
+    margin: auto;
+}
+button{
+    position: relative;
+    height: 50px;
+    width: 150px;
+    background-color: #ffff;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    font-family: "Permanent Marker", cursive;
+
+}
